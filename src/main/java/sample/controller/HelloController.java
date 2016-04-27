@@ -11,6 +11,7 @@ import sample.service.HelloService;
 @Controller
 public class HelloController {
 
+//	依存するクラスを外から注入(DI) = newしなくても外部のクラスを使える。
 	@Autowired
 	HelloService helloService;
 
